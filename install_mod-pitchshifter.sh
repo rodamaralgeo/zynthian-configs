@@ -1,5 +1,6 @@
 # install_mod-pitchshifter.sh
 cd $ZYNTHIAN_PLUGINS_SRC_DIR
+rm -r mod-pitchshifter
 git clone https://github.com/moddevices/mod-pitchshifter.git
 cd mod-pitchshifter
 sed -i -- 's,-mtune=generic -msse -msse2 -mfpmath=sse,,g' Makefile.mk
