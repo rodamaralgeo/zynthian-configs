@@ -7,4 +7,4 @@ cd guitarix/trunk
 ./waf build
 sudo ./waf install
 ./waf clean
-	cd ../..
+cd ../..
