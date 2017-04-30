@@ -19,8 +19,8 @@ cd /boot
 sed -i 's,dtoverlay=hifiberry-dacplus,#dtoverlay=hifiberry-dacplus,g' config.txt
 sed -i 's,#dtoverlay=audioinjector-wm8731-audio,dtoverlay=audioinjector-wm8731-audio,g' config.txt
 sed -i 's,dtoverlay=pitft28-resistive,#dtoverlay=pitft28-resistive,g' config.txt
-echo "framebuffer_width=1280" >> /boot/config.txt
-echo "framebuffer_height=720" >> /boot/config.txt
+echo "framebuffer_width=1024" >> /boot/config.txt
+echo "framebuffer_height=600" >> /boot/config.txt
 echo "max_usb_current=1" >> /boot/config.txt
 echo "hdmi_goup=2" >> /boot/config.txt
 echo "hdmi_mode=1" >> /boot/config.txt
