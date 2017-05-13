@@ -7,5 +7,5 @@ apt-get install libgtk2.0-dev
 apt-get install lv2-dev
 git submodule init
 git submodule update
-make mod=1
-make install mod=1 INSTALL_DIR=/zynthian/zynthian-plugins/lv2
+make mod
+make install mod INSTALL_DIR=/zynthian/zynthian-plugins/lv2
