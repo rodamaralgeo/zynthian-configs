@@ -1,4 +1,3 @@
-cd /zynthian
 git clone https://github.com/rodamaralgeo/mod-lv2-data.git
 cd mod-lv2-data
 git pull
@@ -29,3 +28,5 @@ cp -R /zynthian/mod-lv2-data/plugins-fixed/ZamGate.lv2/* /zynthian/zynthian-plug
 cp -R /zynthian/mod-lv2-data/plugins-fixed/ZamGateX2.lv2/* /zynthian/zynthian-plugins/lv2/ZamGateX2.lv2
 cp -R /zynthian/mod-lv2-data/plugins-fixed/ZamHeadX2.lv2/* /zynthian/zynthian-plugins/lv2/ZamHeadX2.lv2
 cp -R /zynthian/mod-lv2-data/plugins-fixed/ZamTube.lv2/* /zynthian/zynthian-plugins/lv2/ZamTube.lv2
+
+# cp -R /zynthian/mod-lv2-data/plugins/tape_delay-swh.lv2/* /zynthian/zynthian-plugins/lv2/tape_delay-swh.lv2
