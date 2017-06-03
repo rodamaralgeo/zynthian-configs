@@ -7,4 +7,5 @@ git submodule init
 git submodule update
 make
 make install
-
+make clean
+cd ..
