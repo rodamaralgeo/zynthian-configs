@@ -7,3 +7,5 @@ git submodule init
 git submodule update
 make mod
 make install mod INSTALL_DIR=/zynthian/zynthian-plugins/lv2
+make clean
+cd ..
