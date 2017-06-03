@@ -30,3 +30,4 @@ cp -R /zynthian/mod-lv2-data/plugins-fixed/ZamHeadX2.lv2/* /zynthian/zynthian-pl
 cp -R /zynthian/mod-lv2-data/plugins-fixed/ZamTube.lv2/* /zynthian/zynthian-plugins/lv2/ZamTube.lv2
 
 # cp -R /zynthian/mod-lv2-data/plugins/tape_delay-swh.lv2/* /zynthian/zynthian-plugins/lv2/tape_delay-swh.lv2
+cp -R /zynthian/mod-lv2-data/plugins-fixed/invada.lv2/* /usr/lib/lv2/invada.lv2
