@@ -10,5 +10,5 @@ git submodule init
 git submodule update
 sed -i -- 's,-mtune=generic -msse -msse2,,g' Makefile.mk dpf/dgl/Makefile.mk
 sed -i -- 's,-mfpmath=sse,,g' Makefile.mk dpf/dgl/Makefile.mk
-make MOD=1
-make install MOD=1
+make
+make install
