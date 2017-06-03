@@ -1,4 +1,3 @@
-
 cd /zynthian
 git clone https://github.com/rodamaralgeo/mod-lv2-data.git
 cd mod-lv2-data
