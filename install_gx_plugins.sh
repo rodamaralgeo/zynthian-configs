@@ -6,6 +6,6 @@ apt-get install -y libc6-dev libgtk2.0-dev lv2-dev
 git submodule init
 git submodule update
 make mod
-make install INSTALL_DIR=/zynthian/zynthian-plugins/lv2
+make install mod INSTALL_DIR=/zynthian/zynthian-plugins/lv2
 make clean
 cd ..
