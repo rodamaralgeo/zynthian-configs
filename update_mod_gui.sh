@@ -15,6 +15,7 @@ cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins-fixed/gx_muff.lv2/* $ZYNTHIAN_DIR/zynth
 cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins-fixed/gxts9.lv2/* $ZYNTHIAN_DIR/zynthian-plugins/lv2/gxts9.lv2
 cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins/gx_colwah.lv2/* $ZYNTHIAN_DIR/zynthian-plugins/lv2/gx_colwah.lv2
 cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins/gx_zita_rev1.lv2/* $ZYNTHIAN_DIR/zynthian-plugins/lv2/gx_zita_rev1.lv2
+cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins-fixed/gx_slowgear.lv2/* $ZYNTHIAN_DIR/zynthian-plugins/lv2/gx_slowgear.lv2
 #Zam Audio Plugins
 cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins-fixed/ZaMaximX2.lv2/* $ZYNTHIAN_DIR/zynthian-plugins/lv2/ZaMaximX2.lv2
 cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins-fixed/ZaMultiComp.lv2/* $ZYNTHIAN_DIR/zynthian-plugins/lv2/ZaMultiComp.lv2
