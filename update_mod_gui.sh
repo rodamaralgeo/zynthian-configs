@@ -1,4 +1,4 @@
-$ZYNTHIAN_DIR
+cd $ZYNTHIAN_DIR
 git clone https://github.com/rodamaralgeo/mod-lv2-data.git
 cd mod-lv2-data
 git pull
