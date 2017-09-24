@@ -32,4 +32,4 @@ cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins-fixed/ZamHeadX2.lv2/* $ZYNTHIAN_DIR/zyn
 cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins-fixed/ZamTube.lv2/* $ZYNTHIAN_DIR/zynthian-plugins/lv2/ZamTube.lv2
 
 # cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins/tape_delay-swh.lv2/* $ZYNTHIAN_DIR/zynthian-plugins/lv2/tape_delay-swh.lv2
-cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins-fixed/invada.lv2/* /usr/lib/lv2/invada.lv2
+cp -R $ZYNTHIAN_DIR/mod-lv2-data/plugins-fixed/invada.lv2/* $ZYNTHIAN_DIR/zynthian-plugins/lv2/invada.lv2
