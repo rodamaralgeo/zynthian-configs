@@ -1,0 +1,14 @@
+sh install_abgate.sh
+sh install_convoLV2.sh
+sh install_distrho.sh
+sh install_gx_plugins.sh
+sh install_invada.sh
+sh install_mod-meter.sh
+sh install_mod-pitchshifter.sh
+sh install_rkrlv2.sh
+sh install_shiro.sh
+sh install_tap.sh
+sh install_x42_eq.sh
+sh install_x42tuna.sh
+sh install_zamaudio.sh
+sh update_mod_gui.sh
