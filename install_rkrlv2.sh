@@ -1,5 +1,6 @@
 # rkrlv2
 cd $ZYNTHIAN_PLUGINS_SRC_DIR
+rm -rf rkrlv2
 git clone https://github.com/ssj71/rkrlv2.git
 cd rkrlv2
 sed -i -- 's,-msse -msse2 -mfpmath=sse,,g' lv2/CMakeLists.txt
