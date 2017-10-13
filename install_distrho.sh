@@ -10,3 +10,5 @@ sed -i -- 's,-mtune=generic -msse -msse2,,g' Makefile.mk dpf/dgl/Makefile.mk
 sed -i -- 's,-mfpmath=sse,,g' Makefile.mk dpf/dgl/Makefile.mk
 make
 make install
+make clean
+cd ../..
