@@ -1,6 +1,6 @@
-
 # install_mod-tap.sh
 cd $ZYNTHIAN_PLUGINS_SRC_DIR
+rm -rf tap-lv2
 git clone https://github.com/moddevices/tap-lv2.git
 cd tap-lv2
 sed -i -- 's/-mtune=generic -msse -msse2 -mfpmath=sse//' Makefile.mk
