@@ -1,4 +1,5 @@
 sh install_abgate.sh
+sh install_irlv2.sh
 sh install_convoLV2.sh
 sh install_distrho.sh
 sh install_gx_plugins.sh
