@@ -8,7 +8,7 @@ sed -i -- 's,LIBDIR ?= lib,LIBDIR ?= zynthian-plugins,g' Makefile
 sed -i -- 's,-mtune=generic -msse -msse2,,g' Makefile.mk
 git submodule init
 git submodule update
-sed -i -- 's,-mtune=generic -msse -msse2,,g' dpf/dgl/Makefile.mk
-sed -i -- 's,-mfpmath=sse,,g' Makefile.mk dpf/dgl/Makefile.mk
+sed -i -- 's,-mtune=generic -msse -msse2,,g' dpf/Makefile.base.mk
+sed -i -- 's,-mfpmath=sse,,g' dpf/Makefile.base.mk
 make
 make install
