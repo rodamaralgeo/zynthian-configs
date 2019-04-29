@@ -6,7 +6,7 @@ sed -i -- 's,-mtune=generic -msse -msse2,,g' Makefile.mk
 sed -i -- 's,-mfpmath=sse,,g' Makefile.mk
 git submodule init
 git submodule update
-sed -i -- 's,-mtune=generic -msse -msse2,,g' Makefile.mk dpf/dgl/Makefile.mk
-sed -i -- 's,-mfpmath=sse,,g' Makefile.mk dpf/dgl/Makefile.mk
+sed -i -- 's,-mtune=generic -msse -msse2,,g' dpf/dgl/Makefile.mk
+sed -i -- 's,-mfpmath=sse,,g' dpf/dgl/Makefile.mk
 make
 make install
