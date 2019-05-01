@@ -22,4 +22,4 @@ sh	install_tap.sh
 sh	install_x42_eq.sh
 sh	install_x42tuna.sh
 sh	install_zamaudio.sh
-sh	update_mod_gui.sh
+sh zynthian-modgui.sh
