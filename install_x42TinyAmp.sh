@@ -5,4 +5,4 @@ sed -i -- 's,PREFIX ?= /usr/local,PREFIX ?= /zynthian/zynthian-plugins,g' Makefi
 sed -i -- 's,LV2DIR ?= $(PREFIX)/lib/lv2,LV2DIR ?= $(PREFIX)/lv2,g' Makefile 
 sed -i -- 's,-msse -msse2 -mfpmath=sse,,g' Makefile 
 make MOD=1
-make install MOD=1
+make install MOD=1 DESTDIR=/zynthian/zynthian-plugins/lv2
