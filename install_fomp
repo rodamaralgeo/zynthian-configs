@@ -1,0 +1,6 @@
+# install_mod-tap.sh
+cd $ZYNTHIAN_PLUGINS_SRC_DIR
+git clone http://git.drobilla.net/fomp.lv2.git
+./waf configure
+./waf build
+sudo ./waf install
