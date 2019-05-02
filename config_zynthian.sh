@@ -23,4 +23,4 @@ sh	install_x42_eq.sh
 sh	install_x42tuna.sh
 sh install_x42TinyAmp.sh
 sh	install_zamaudio.sh
-#sh  zynthian-modgui.sh
+sh  zynthian-modgui.sh
