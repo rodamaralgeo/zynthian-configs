@@ -11,4 +11,5 @@ cmake ..
 make MOD=1
 make install MOD=1
 make clean
+mv /usr/local/share/rkr.lv2 /zynthian/zynthian-plugins/lv2/rkr.lv2
 cd ../..
