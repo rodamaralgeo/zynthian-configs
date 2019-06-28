@@ -1,6 +1,8 @@
-Este repositório tem o objetivo de facilitar e agilizar a instalaão do Zynthian customizado para o seguinte Hardware:
+Este repositório possui alguns scripts para a instalação de novos plugins para o Zynthian.
 
-- Raspbery PI 3
-- AudioInector SoundCard
-- WaveShare 7" INCH HDMI (C) Screen
+Para instalar basta rodar os seguintes comandos: 
 
+cd /zynthian
+git clone https://github.com/rodamaralgeo/zynthian-configs.git
+cd zynthian-configs
+sh config_zynthian.sh
