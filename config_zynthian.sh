@@ -15,7 +15,7 @@ sh	install_gxplexi.sh
 #sh	install_midding.sh
 #sh	install_mod-meter.sh
 #sh	install_mod-pitchshifter.sh
-#sh	install_rkrlv2.sh
+sh	install_rkrlv2.sh
 #sh	install_screcord.sh
 #sh	install_shiro.sh
 sh	install_tap.sh
