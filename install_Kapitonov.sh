@@ -12,3 +12,8 @@ make mod
 make install mod INSTALL_DIR=/zynthian/zynthian-plugins/lv2
 make clean
 cd ..
+
+
+git clone https://github.com/rodamaralgeo/plugins-bin.git
+cd plugins-bin
+cp -r *.lv2 /zynthian/zynthian-plugins/lv2
